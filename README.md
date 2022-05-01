@@ -6,6 +6,6 @@
 
 **Requirements:** <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form/">View Requirements</a>
 
-**Solution Link:** <a href="https://cosminmoldovan.github.io/fcc-tribute-page/">Live Demo</a>
+**Solution Link:** <a href="https://cosminmoldovan.github.io/fcc-survey-form/">Live Demo</a>
 
 <img src="project-thumbnail.png" />
