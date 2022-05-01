@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container">
+        <header>
+          <div id="logo">
+            <img id="logo-img" src="https://i.postimg.cc/9fx04cfz/karma-logo.png">
+          </div>
+      
+          <h1 id="title">Gym Feedback Form</h1>
+          <p id="description">We would love to hear from you! Please take a moment to let us know about your experience at KARMA GYM.</p>
+        </header>
+      
+        <form id="survey-form" action="">
+      
+          <div class="input-group text-group">
+            <label for="name" id="name-label" class="question">Full Name</label>
+            
+            <input type="text" id="name" class="input-box" name="name" placeholder="ex: John Smith" required></input>
+          </div>
+      
+          <div class="input-group email-group">
+            <label for="email" id="email-label" class="question">Email address</label>
+            
+            <input type="email" id="email" class="input-box" name="email" placeholder="ex: myname@example.com" required></input>
+          </div>
+      
+          <div class="input-group number-grop">
+          <label for="number" id="number-label" class="question">Your age<sup>(optional)</sup></label>
+            
+          <input type="number" id="number" class="input-box" min="12" max="99" name="age" placeholder="Age (number between 12 and 99)"></input>
+          </div>
+      
+          <div class=" input-group checkbox-group">
+            <p class="question">What is your gender?</p>
+      
+            <label>
+              <input type="checkbox" value="male" name="gender">
+              Male
+            </label>
+      
+            <label>
+              <input type="checkbox" value="female" name="gender">
+              Female
+            </label>
+      
+            <label>
+              <input type="checkbox" value="non-binary" name="gender">
+              Non-binary
+            </label>
+      
+            <label>
+              <input type="checkbox" value="transgender" name="gender">
+              Transgender
+            </label>
+      
+            <label>
+              <input type="checkbox" value="Intersex" name="gender">
+              Intersex
+            </label>
+      
+            <label>
+              <input type="checkbox" value="other" name="gender">
+              Other
+            </label>
+      
+            <label>
+              <input type="checkbox" value="not-said" name="gender">
+              I prefer not to say
+            </label>
+      
+          </div>
+      
+          <div class="input-group select-group">
+            <label for="dropdown" class="question">
+              How often do you go to the gym?
+            </label>
+            <select id="dropdown" class="input-box" name="frequency">
+              <option value="-1">
+                Less than 1 time per week
+              </option>
+              <option value="1">
+                1 time per week
+              </option>
+              <option value="2-3" selected>
+                2-3 times per week
+              </option>
+              <option value="4-5">
+                4-5 times per week
+              </option>
+              <option value="6+">
+                6+ times per week
+              </option>
+            </select>
+          </div>
+      
+          <div class="input-group radio-group">
+            <p class="question">How satisfied are you with the <strong>equipments of the gym</strong>?</p>
+      
+            <label>
+              <input type="radio" value="very-satisfied" name="equipments">
+              Very Satisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="satisfied" name="equipments">
+              Satisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="neutral" name="equipments">
+              Neutral
+            </label>
+      
+            <label>
+              <input type="radio" value="dissatisfied" name="equipments">
+              Dissatisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="very-dissatisfied" name="equipments">
+              Very Dissatisfied
+            </label>
+          </div>
+      
+          <div class="input-group radio-group">
+            <p class="question">How satisfied are you with the <strong>gym trainers</strong>?</p>
+      
+            <label>
+              <input type="radio" value="very-satisfied" name="trainers">
+              Very Satisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="satisfied" name="trainers">
+              Satisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="neutral" name="trainers">
+              Neutral
+            </label>
+      
+            <label>
+              <input type="radio" value="dissatisfied" name="trainers">
+              Dissatisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="very-dissatisfied" name="trainers">
+              Very Dissatisfied
+            </label>
+      
+          </div>
+      
+          <div class="input-group radio-group">
+            <p class="question">How satisfied are you with the <strong>cleanliness of the gym</strong>?</p>
+      
+            <label>
+              <input type="radio" value="very-satisfied" name="cleanliness">
+              Very Satisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="satisfied" name="cleanliness">
+              Satisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="neutral" name="cleanliness">
+              Neutral
+            </label>
+      
+            <label>
+              <input type="radio" value="dissatisfied" name="cleanliness">
+              Dissatisfied
+            </label>
+      
+            <label>
+              <input type="radio" value="very-dissatisfied" name="cleanliness">
+              Very Dissatisfied
+            </label>
+      
+          </div>
+      
+          <div class="input-group">
+            <p class="question">
+              Comments, complaints, suggestions? We're listening.
+            </p>
+            <textarea class="input-box textarea" name="additional-msg" placeholder="Type here..."></textarea>
+            </div>
+      
+          <button type="submit" id="submit">
+            Submit Form
+          </button>
+      
+        </form>
+      </div>
+</body>
+</html>
